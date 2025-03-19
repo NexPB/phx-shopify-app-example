@@ -1,0 +1,8 @@
+name = "phx"
+roles = ["backend", "frontend"]
+port = 4000
+
+webhooks_path = "/shopify/webhooks"
+
+[commands]
+dev = "./start.sh"
